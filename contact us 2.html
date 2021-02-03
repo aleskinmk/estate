@@ -1,0 +1,200 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="icons/favicon.png">
+    <title>Atlantis</title>
+    <!-- Bootstrap core CSS -->
+    <link href="bootstrap-4.0.0/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom styles for this template -->
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/style-adaptive.css" rel="stylesheet">
+  </head>
+  <body>
+    <!-- navbar main -->
+    <nav class="navbar navbar-expand-lg sticky-top navbar-dark bg-main-color">
+      <a class="navbar-brand pl-3" href="#">
+        <img src="img/logo.png" width="130" height="" alt="">
+      </a>
+      <button class="navbar-toggler justify-content-md-right custom-togler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-md-center" id="navbarSupportedContent" >
+        <ul class="navbar-nav d-flex justify-content-between">
+          <li class="nav-item">
+            <a class="nav-link" href="index 2.html">HOME</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="rooms.html">ROOMS</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="room 2.html">ROOM</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="spa.html">SPA & FITNESS</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="page 1.html">ABOUT US</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact us 2.html">CONTACT US</a>
+          </li>
+        </ul>
+      </div>
+      <div class="float-right d-none d-lg-block" data-toggle="collapse" >
+        <div class="collapse navbar-collapse justify-content-md-center" data-toggle="collapse">
+          <form class="form-inline float-right">
+            <button class="btn " type="submit"><img src="icons/calendar.svg" class="m-2" width="20" height="20" alt="">BOOK NOW</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <!-- END navbar main -->
+
+    <!-- map -->
+    <div class="container-fluid p-0">
+      <div id="map" class="contact-us-map-2"></div>
+      <script>
+        "Use strict";
+        function initMap() {
+          var uluru = {lat: -25.363, lng: 131.044};
+          var map = new google.maps.Map(document.getElementById('map'), {
+            zoom: 4,
+            center: uluru,
+            mapTypeId: 'satellite'
+          });
+          var marker = new google.maps.Marker({
+            position: uluru,
+            map: map
+          });
+        }
+      </script>
+      <script async defer
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDzaWDFMdJAe8Dxh0iaFrUoRyz5VX3Qx24&callback=initMap">
+      </script>
+    </div>
+    <!-- END map -->
+
+    <div class="py-5">
+      <div class="container contact-block-text py-3">
+        <div class="row">
+          <div class="col-md-6 pr-md-4">
+            <p class="topheader text-secondary">Atlantis resort</p>
+            <div class="mb-4">
+              <h2 class="">CONTACT US</h2>
+              <p class="text"> Take our complimentary transport benefit from the pier port to the smooth, open-fronted lodging gathering, where you'll wonder about the excellence of the turquoise ocean and rich delicate sand. </p>
+            </div>
+            <div class="mb-4">
+              <p class="topheader-b">Address</p>
+              <p class="text mb-3"> Atlantis Resort, Galoc Island 231,<br> Gillion, Philippines</p>
+            </div>
+            <div class="mb-4">
+              <p class="topheader-b">Booking</p>
+              <ul class="list">
+                <li class="text-20"><img src="icons/phone-black.svg" class="mr-1" width="20px" height="" alt="" > +30 237 501 204 00</li>
+                <li class="text-20"><img src="icons/phone-black.svg" class="mr-1" width="20px" height="" alt="" > +30 237 501 204 00</li>
+                <li class="text-20"><img src="icons/mail-black.svg" class="mr-2" width="20px" class="mr-1" height="" alt="" > info@atlantisresort.com</li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-6 pt-5 pt-md-4">
+            <form>
+              <h3 class="mb-3">EMAIL FORM</h3>
+              <div class="mb-4">
+                <div class="form-group">
+                  <label class="topheader"for="exampleFormControlInput1">Name</label>
+                  <input type="Name" class="form-control" id="exampleFormControlInput1" placeholder="Name">
+                </div>
+                <div class="form-group">
+                  <label class="topheader" for="exampleFormControlInput1">Email address</label>
+                  <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                </div>
+                <div class="form-group m">
+                  <label class="topheader" for="exampleFormControlTextarea1">Your Question</label>
+                  <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                </div>
+              </div>
+              <button type="submit" class="btn-main">Send mail</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer-->
+    <div class="container-fluid bg-main-color-2 text-white">
+      <div class="container">
+        <div class="row py-4">
+          <div class="col-md-3 ft-left py-1 py-md-0">
+            <a href="#"><img class="icon-footer" src="icons/1.svg" width="30px" height="30px" alt="" ></a>
+            <a href="#"><img class="icon-footer" src="icons/2.svg" width="25px" height="25px" alt="" ></a>
+            <a href="#"><img class="icon-footer" src="icons/3.svg" width="23px" height="23px" alt="" ></a>
+            <a href="#"><img class="icon-footer" src="icons/4.svg" width="23px" height="22px" alt="" ></a>
+          </div>
+          <div class="col-md-6 text-center py-2 py-md-0 pt-1">
+            <a class="topheader-2 my-3 my-md-0"  href="#">About</a>
+            <a class="topheader-2 my-3 my-md-0"  href="#">Rooms</a>
+            <a class="topheader-2 my-3 my-md-0"  href="#">Awards</a>
+            <a class="topheader-2 my-3 my-md-0"  href="#">Menu</a>
+            <a class="topheader-2 my-3 my-md-0"  href="#">Terms</a>
+          </div>
+          <div class="col-md-3 py-1 py-md-0 pt-1">
+            <p class="topheader ft-right" id="color-footer">Atlantis Resort</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- END Footer-->
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script>window.jQuery || document.write('<script src="bootstrap-4.0.0/js/bootstrap.min.js"><\/script>')</script>
+    <script src="bootstrap-4.0.0/js/vendor/popper.min.js"></script>
+    <script src="bootstrap-4.0.0/js/bootstrap.min.js"></script>
+
+    <!-- Tooltip -->
+    <script>
+      "use strict";
+      $(function () {
+      $('[data-toggle="tooltip"]').tooltip()
+      })
+    </script>
+
+    <!-- //code.jquery.com/jquery-3.3.1.min.js" -->
+    <!-- Gallery -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.js"></script>
+
+    <!-- Include Date Range Picker -->
+    <script type="text/javascript" src="js/bootstrap-datepicker.min.js"></script>
+    <link rel="stylesheet" href="css/bootstrap-datepicker3.css"/>
+    <script>
+      "use strict";
+      $(document).ready(function(){
+        var date_input=$('input[name="date"]'); //our date input has the name "date"
+        var container=$('.bootstrap-iso form').length>0 ? $('.bootstrap-iso form').parent() : "body";
+        var options={
+          format: 'mm/dd/yyyy',
+          container: container,
+          todayHighlight: true,
+          autoclose: true,
+        };
+        date_input.datepicker(options);
+      })
+    </script>
+
+    <!-- Animate -->
+    <!-- Delay animation -->
+    <script src="js/wow.min.js"></script>
+    <script>
+      "use strict";
+      new WOW().init();
+    </script>
+    <!-- Type of animation -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+  </body>
+</html>

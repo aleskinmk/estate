@@ -1,0 +1,289 @@
+/* */
+@media (max-width: 991.98px) {
+  /* line 7, C:/Users/Homename/Desktop/Atlantis update/css/sass/style-adaptive.sass */
+  h2 {
+    font-weight: 300;
+    font-size: 40px;
+    letter-spacing: 0px;
+  }
+  /* line 12, C:/Users/Homename/Desktop/Atlantis update/css/sass/style-adaptive.sass */
+  nav li {
+    display: block;
+    text-align: center;
+    font-size: 24px;
+    margin: 10px 0px 10px 0px;
+  }
+  /* line 18, C:/Users/Homename/Desktop/Atlantis update/css/sass/style-adaptive.sass */
+  .big-header {
+    font-size: 4rem;
+  }
+  /* line 21, C:/Users/Homename/Desktop/Atlantis update/css/sass/style-adaptive.sass */
+  .main-text {
+    padding-top: 80px;
+  }
+  /* line 24, C:/Users/Homename/Desktop/Atlantis update/css/sass/style-adaptive.sass */
+  .main-text-2 {
+    padding-top: 100px;
+  }
+  /* line 27, C:/Users/Homename/Desktop/Atlantis update/css/sass/style-adaptive.sass */
+  .big-bg {
+    height: 600px;
+    width: 100%;
+    margin: 0 auto;
+    display: block;
+    background-attachment: scroll;
+  }
+  /* line 34, C:/Users/Homename/Desktop/Atlantis update/css/sass/style-adaptive.sass */
+  .nav-link {
+    font-weight: 500;
+    font-size: 16px;
+    margin-right: 5px;
+    margin-left: 5px;
+  }
+  /* line 40, C:/Users/Homename/Desktop/Atlantis update/css/sass/style-adaptive.sass */
+  .navbar {
+    margin-right: 0px;
+    padding: 18px;
+    padding-left: 10px;
+  }
+  /* line 45, C:/Users/Homename/Desktop/Atlantis update/css/sass/style-adaptive.sass */
+  .bg-room-6,
+  .bg-room-7 {
+    height: 500px;
+  }
+  /* line 49, C:/Users/Homename/Desktop/Atlantis update/css/sass/style-adaptive.sass */
+  .text-main {
+    padding: 70px 50px 50px 70px;
+  }
+  /* line 52, C:/Users/Homename/Desktop/Atlantis update/css/sass/style-adaptive.sass */
+  .text-main-2 {
+    padding: 30px 30px 50px 30px;
+  }
+  /* line 55, C:/Users/Homename/Desktop/Atlantis update/css/sass/style-adaptive.sass */
+  .img-big-article,
+  .img-big-article-2,
+  .img-big-article-3,
+  .img-big-article-4 {
+    height: 400px;
+  }
+  /* line 61, C:/Users/Homename/Desktop/Atlantis update/css/sass/style-adaptive.sass */
+  .rooms {
+    padding: 50px 10px 100px 10px;
+  }
+  /* line 64, C:/Users/Homename/Desktop/Atlantis update/css/sass/style-adaptive.sass */
+  .room-price-more {
+    margin-top: 10px;
+  }
+  /* line 67, C:/Users/Homename/Desktop/Atlantis update/css/sass/style-adaptive.sass */
+  .ft-left {
+    text-align: center;
+    margin: 10px 0px 10px 0px;
+  }
+  /* line 71, C:/Users/Homename/Desktop/Atlantis update/css/sass/style-adaptive.sass */
+  .ft-right {
+    text-align: center;
+    margin: 10px 0px 10px 0px;
+  }
+  /* line 75, C:/Users/Homename/Desktop/Atlantis update/css/sass/style-adaptive.sass */
+  .img-room,
+  .img-room-2,
+  .img-room-3,
+  .img-room-4,
+  .img-room-5 {
+    min-height: 200px;
+  }
+}
+
+@media (max-width: 767.98px) {
+  /* line 84, C:/Users/Homename/Desktop/Atlantis update/css/sass/style-adaptive.sass */
+  .big-header {
+    font-size: 3.5rem;
+  }
+  /* line 87, C:/Users/Homename/Desktop/Atlantis update/css/sass/style-adaptive.sass */
+  .text-room-preview {
+    padding: 20px 20px 20px 20px;
+  }
+  /* line 90, C:/Users/Homename/Desktop/Atlantis update/css/sass/style-adaptive.sass */
+  .bg-room-6,
+  .bg-room-7 {
+    height: 400px;
+  }
+  /* line 94, C:/Users/Homename/Desktop/Atlantis update/css/sass/style-adaptive.sass */
+  .main-text {
+    padding-top: 80px;
+  }
+  /* line 97, C:/Users/Homename/Desktop/Atlantis update/css/sass/style-adaptive.sass */
+  .main-text-2 {
+    padding-top: 80px;
+  }
+  /* line 100, C:/Users/Homename/Desktop/Atlantis update/css/sass/style-adaptive.sass */
+  .main-article {
+    padding: 0px 20px 0px 20px;
+  }
+  /* line 103, C:/Users/Homename/Desktop/Atlantis update/css/sass/style-adaptive.sass */
+  .contact-block-text {
+    padding: 40px 20px 0px 20px;
+  }
+  /* line 106, C:/Users/Homename/Desktop/Atlantis update/css/sass/style-adaptive.sass */
+  .room-gallery-img {
+    height: 300px;
+  }
+  /* line 109, C:/Users/Homename/Desktop/Atlantis update/css/sass/style-adaptive.sass */
+  .room {
+    margin: 0px 0px 60px 0px;
+    padding: 0px 15px;
+  }
+  /* line 113, C:/Users/Homename/Desktop/Atlantis update/css/sass/style-adaptive.sass */
+  .title-similar-rooms {
+    padding: 0px 15px;
+  }
+  /* line 116, C:/Users/Homename/Desktop/Atlantis update/css/sass/style-adaptive.sass */
+  .input-booking {
+    min-width: 200px;
+  }
+  /* line 119, C:/Users/Homename/Desktop/Atlantis update/css/sass/style-adaptive.sass */
+  .text-main-3 {
+    padding: 30px 50px 50px 30px;
+  }
+  /* line 122, C:/Users/Homename/Desktop/Atlantis update/css/sass/style-adaptive.sass */
+  .main-bg-2,
+  .main-bg-3,
+  .main-bg-4 {
+    height: 300px;
+  }
+  /* line 127, C:/Users/Homename/Desktop/Atlantis update/css/sass/style-adaptive.sass */
+  .contact-block-map {
+    padding: 20px;
+  }
+  /* line 131, C:/Users/Homename/Desktop/Atlantis update/css/sass/style-adaptive.sass */
+  .gallery-img-2,
+  .gallery-img-3,
+  .gallery-img-4,
+  .gallery-img-5,
+  .gallery-img-6 {
+    height: 200px;
+  }
+  /* line 137, C:/Users/Homename/Desktop/Atlantis update/css/sass/style-adaptive.sass */
+  .img-bg {
+    height: 400px;
+  }
+}
+
+@media (max-width: 575.98px) {
+  /* line 142, C:/Users/Homename/Desktop/Atlantis update/css/sass/style-adaptive.sass */
+  h1 {
+    font-weight: 300;
+    font-size: 42px;
+    letter-spacing: -1px;
+  }
+  /* line 147, C:/Users/Homename/Desktop/Atlantis update/css/sass/style-adaptive.sass */
+  h2 {
+    font-weight: 300;
+    font-size: 38px;
+    letter-spacing: 0px;
+  }
+  /* line 152, C:/Users/Homename/Desktop/Atlantis update/css/sass/style-adaptive.sass */
+  nav li {
+    display: block;
+    text-align: center;
+    font-size: 24px;
+    margin: 10px 0px 10px 0px;
+  }
+  /* line 158, C:/Users/Homename/Desktop/Atlantis update/css/sass/style-adaptive.sass */
+  .big-header {
+    font-size: 3rem;
+  }
+  /* line 162, C:/Users/Homename/Desktop/Atlantis update/css/sass/style-adaptive.sass */
+  .lead {
+    font-size: 17px;
+  }
+  /* line 165, C:/Users/Homename/Desktop/Atlantis update/css/sass/style-adaptive.sass */
+  .main-text {
+    padding-top: 18vh;
+  }
+  /* line 168, C:/Users/Homename/Desktop/Atlantis update/css/sass/style-adaptive.sass */
+  .main-text-2 {
+    padding-top: 70px;
+  }
+  /* line 171, C:/Users/Homename/Desktop/Atlantis update/css/sass/style-adaptive.sass */
+  .hide-sm {
+    display: none;
+  }
+  /* line 174, C:/Users/Homename/Desktop/Atlantis update/css/sass/style-adaptive.sass */
+  .bg-room-6,
+  .bg-room-7 {
+    height: 300px;
+  }
+  /* line 178, C:/Users/Homename/Desktop/Atlantis update/css/sass/style-adaptive.sass */
+  .big-bg,
+  .big-bg-3 {
+    height: 600px;
+    width: 100%;
+    margin: 0 auto;
+    display: block;
+    background-attachment: scroll;
+  }
+  /* line 186, C:/Users/Homename/Desktop/Atlantis update/css/sass/style-adaptive.sass */
+  .carousel-item {
+    height: 86vh;
+  }
+  /* line 189, C:/Users/Homename/Desktop/Atlantis update/css/sass/style-adaptive.sass */
+  .carousel-item-page {
+    height: 70vh;
+  }
+  /* line 192, C:/Users/Homename/Desktop/Atlantis update/css/sass/style-adaptive.sass */
+  .booking {
+    margin-top: 10px;
+  }
+  /* line 195, C:/Users/Homename/Desktop/Atlantis update/css/sass/style-adaptive.sass */
+  .text-main {
+    padding: 50px 50px 50px 50px;
+  }
+  /* line 198, C:/Users/Homename/Desktop/Atlantis update/css/sass/style-adaptive.sass */
+  .text-main-3 {
+    padding: 30px 20px 20px 30px;
+  }
+  /* line 201, C:/Users/Homename/Desktop/Atlantis update/css/sass/style-adaptive.sass */
+  .contact-text {
+    font-size: 20px;
+  }
+  /* line 204, C:/Users/Homename/Desktop/Atlantis update/css/sass/style-adaptive.sass */
+  .article-image {
+    max-width: 100%;
+    height: 300px;
+  }
+  /* line 208, C:/Users/Homename/Desktop/Atlantis update/css/sass/style-adaptive.sass */
+  .input-booking {
+    margin-top: 10px;
+  }
+  /* line 211, C:/Users/Homename/Desktop/Atlantis update/css/sass/style-adaptive.sass */
+  .nav-link {
+    font-weight: 500;
+    font-size: 16px;
+    margin-right: 5px;
+    margin-left: 5px;
+  }
+  /* line 217, C:/Users/Homename/Desktop/Atlantis update/css/sass/style-adaptive.sass */
+  .navbar {
+    padding: 18px;
+  }
+  /* line 220, C:/Users/Homename/Desktop/Atlantis update/css/sass/style-adaptive.sass */
+  .img-big-article,
+  .img-big-article-2,
+  .img-big-article-3,
+  .img-big-article-4 {
+    height: 300px;
+    margin: 0px 20px;
+  }
+  /* line 227, C:/Users/Homename/Desktop/Atlantis update/css/sass/style-adaptive.sass */
+  .rooms {
+    padding: 50px 10px 100px 10px;
+    margin-bottom: 10px;
+  }
+  /* line 231, C:/Users/Homename/Desktop/Atlantis update/css/sass/style-adaptive.sass */
+  .room {
+    margin-bottom: 40px;
+  }
+}
+
+/*# sourceMappingURL=../style-adaptive.map */

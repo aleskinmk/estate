@@ -1,0 +1,83 @@
+/* Room 2 */
+/* colors */
+/* line 4, C:/Users/Homename/Desktop/Atlantis update/css/sass/gallery-room-2.sass */
+.carousel-item {
+  height: 100%;
+  min-height: 100px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+/* line 13, C:/Users/Homename/Desktop/Atlantis update/css/sass/gallery-room-2.sass */
+.carousel-control-prev,
+.carousel-control-next {
+  position: absolute;
+  top: auto;
+  bottom: 0px;
+  height: 80px;
+  background-color: #005e75;
+  width: 15%;
+  color: #fff;
+  text-align: center;
+  opacity: 1;
+}
+
+/* line 25, C:/Users/Homename/Desktop/Atlantis update/css/sass/gallery-room-2.sass */
+.carousel-form {
+  position: absolute;
+  right: 0;
+  bottom: 90px;
+  left: 0;
+  z-index: 15;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding-left: 0;
+  list-style: none;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+/* line 42, C:/Users/Homename/Desktop/Atlantis update/css/sass/gallery-room-2.sass */
+.carousel-control-prev-icon {
+  background-image: url("../icons/left-arrow.svg");
+}
+
+/* line 45, C:/Users/Homename/Desktop/Atlantis update/css/sass/gallery-room-2.sass */
+.carousel-control-next-icon {
+  background-image: url("../icons/right-arrow.svg");
+}
+
+/* line 48, C:/Users/Homename/Desktop/Atlantis update/css/sass/gallery-room-2.sass */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  width: 20px;
+  height: 20px;
+}
+
+/* line 53, C:/Users/Homename/Desktop/Atlantis update/css/sass/gallery-room-2.sass */
+.carousel-indicators li {
+  width: 40px;
+  height: 2px;
+}
+
+@media (max-width: 767.98px) {
+  /* line 59, C:/Users/Homename/Desktop/Atlantis update/css/sass/gallery-room-2.sass */
+  .carousel-control-prev,
+  .carousel-control-next {
+    height: 50px;
+  }
+  /* line 63, C:/Users/Homename/Desktop/Atlantis update/css/sass/gallery-room-2.sass */
+  .carousel-indicators li {
+    width: 20px;
+    height: 2px;
+  }
+}
+
+/*# sourceMappingURL=../gallery-room-2.map */

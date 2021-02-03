@@ -1,0 +1,2040 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:300,400,500,700,800");
+/* colors */
+/* colors */
+/* Book now */
+/* line 6, C:/Users/Homename/Desktop/Atlantis update/css/sass/buttons.sass */
+.btn {
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 2px;
+  height: 80px;
+  border-radius: 0px;
+  color: white;
+  background-color: #00566b;
+  padding: 0px 25px 0px 25px;
+  transition: 0.3s;
+}
+
+/* line 17, C:/Users/Homename/Desktop/Atlantis update/css/sass/buttons.sass */
+.btn:hover {
+  background-color: #003d4c;
+}
+
+/* line 20, C:/Users/Homename/Desktop/Atlantis update/css/sass/buttons.sass */
+#book-now {
+  margin: 0px 10px 2px 5px;
+}
+
+/* End book now */
+/* Check available */
+/* line 25, C:/Users/Homename/Desktop/Atlantis update/css/sass/buttons.sass */
+.btn-search {
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 3px;
+  border: 0px;
+  text-transform: uppercase;
+  border-radius: 50px;
+  color: white;
+  background-color: #005266;
+  padding: 10px 25px 10px 25px;
+  width: 100%;
+  margin-top: 24px;
+  transition: 0.2s;
+  cursor: pointer;
+}
+
+/* line 40, C:/Users/Homename/Desktop/Atlantis update/css/sass/buttons.sass */
+.btn-search:hover {
+  background-color: #004a5c;
+  text-decoration: none;
+}
+
+/* line 44, C:/Users/Homename/Desktop/Atlantis update/css/sass/buttons.sass */
+.btn-search:active {
+  background-color: #004e61;
+}
+
+/* line 47, C:/Users/Homename/Desktop/Atlantis update/css/sass/buttons.sass */
+.btn-search:focus {
+  border: none;
+  outline: none;
+}
+
+/* END Check available */
+/* Book view detail room */
+/* line 53, C:/Users/Homename/Desktop/Atlantis update/css/sass/buttons.sass */
+.btn-room {
+  display: block;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  border: 0px;
+  color: white;
+  background-color: #004e61;
+  width: 100%;
+  padding: 15px 25px 15px 25px;
+  transition: 0.2s;
+}
+
+/* line 66, C:/Users/Homename/Desktop/Atlantis update/css/sass/buttons.sass */
+.btn-room:hover {
+  background-color: #003d4c;
+  text-decoration: none;
+  color: white;
+}
+
+/* END Book view detail room */
+/* button circle */
+/* line 73, C:/Users/Homename/Desktop/Atlantis update/css/sass/buttons.sass */
+.btn-main {
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  border-radius: 50px;
+  border: 0px;
+  color: white;
+  background-color: #005e75;
+  padding: 18px;
+  padding-left: 25px;
+  padding-right: 25px;
+  transition: 0.2s;
+}
+
+/* line 87, C:/Users/Homename/Desktop/Atlantis update/css/sass/buttons.sass */
+.btn-main:hover {
+  background-color: #003d4c;
+  text-decoration: none;
+  color: white;
+}
+
+/* END button circle */
+/* Text button */
+/* line 94, C:/Users/Homename/Desktop/Atlantis update/css/sass/buttons.sass */
+.btn-text {
+  font-weight: 600;
+  font-size: 14px;
+  color: #005e75;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  margin: 5px 0px;
+  transition: 0.3s;
+}
+
+/* line 103, C:/Users/Homename/Desktop/Atlantis update/css/sass/buttons.sass */
+.btn-text:hover {
+  color: #00627a;
+  opacity: 0.8;
+  text-decoration: none;
+}
+
+/* END Text button */
+/* line 110, C:/Users/Homename/Desktop/Atlantis update/css/sass/buttons.sass */
+.btn-room-2 {
+  display: block;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  border: 0px;
+  border-radius: 50px;
+  color: white;
+  background-color: #005e75;
+  width: 100%;
+  padding: 15px 25px 15px 25px;
+  transition: 0.2s;
+}
+
+/* line 124, C:/Users/Homename/Desktop/Atlantis update/css/sass/buttons.sass */
+.btn-room-2:hover {
+  background-color: #004a5c;
+  color: white;
+  text-decoration: none;
+}
+
+/* line 130, C:/Users/Homename/Desktop/Atlantis update/css/sass/buttons.sass */
+.btn-footer {
+  height: 50px;
+  background-color: #004a5c;
+  border: 0px;
+  font-size: 14px;
+  letter-spacing: 3px;
+  color: rgba(255, 255, 255, 0.4);
+  text-transform: uppercase;
+  border-top-right-radius: 50px;
+  border-bottom-right-radius: 50px;
+  padding: 10px 15px;
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+/* line 144, C:/Users/Homename/Desktop/Atlantis update/css/sass/buttons.sass */
+.btn-footer:hover {
+  background-color: #003d4c;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+/* line 149, C:/Users/Homename/Desktop/Atlantis update/css/sass/buttons.sass */
+.btn-room-more {
+  display: block;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  border: 0px;
+  color: #005e75;
+  padding-top: 14px;
+}
+
+/* line 159, C:/Users/Homename/Desktop/Atlantis update/css/sass/buttons.sass */
+.btn-room-more:hover {
+  text-decoration: none;
+  opacity: 0.8;
+}
+
+/* line 2, C:/Users/Homename/Desktop/Atlantis update/css/sass/navbar.sass */
+.custom-togler,
+.navbar-toggler-icon {
+  background-image: url(../icons/menu.svg);
+  margin: 0px;
+  border: 0px;
+}
+
+/* line 8, C:/Users/Homename/Desktop/Atlantis update/css/sass/navbar.sass */
+.custom-togler .navbar-toggler-icon {
+  background-image: url(../icons/menu.svg);
+  margin: 0px 10px 0px 0px;
+}
+
+/* line 12, C:/Users/Homename/Desktop/Atlantis update/css/sass/navbar.sass */
+#navbarSupportedContent {
+  padding: 20px;
+}
+
+/* line 15, C:/Users/Homename/Desktop/Atlantis update/css/sass/navbar.sass */
+nav li {
+  display: block;
+  text-align: center;
+}
+
+/* line 19, C:/Users/Homename/Desktop/Atlantis update/css/sass/navbar.sass */
+.navbar {
+  margin-right: 0px;
+  padding: 0px 0px 0px 10px;
+}
+
+/* line 23, C:/Users/Homename/Desktop/Atlantis update/css/sass/navbar.sass */
+.navbar-brand {
+  margin-left: 0px;
+}
+
+/* line 26, C:/Users/Homename/Desktop/Atlantis update/css/sass/navbar.sass */
+.nav-link {
+  font-weight: 500;
+  font-size: 14px;
+  margin-right: 5px;
+  margin-left: 5px;
+}
+
+/* line 32, C:/Users/Homename/Desktop/Atlantis update/css/sass/navbar.sass */
+.navbar-dark .navbar-nav .nav-link {
+  color: white;
+}
+
+/* colors */
+/* line 5, C:/Users/Homename/Desktop/Atlantis update/css/sass/footer.sass */
+.ft-left {
+  text-align: left;
+}
+
+/* line 8, C:/Users/Homename/Desktop/Atlantis update/css/sass/footer.sass */
+.ft-right {
+  margin-top: 2px;
+  text-align: right;
+}
+
+/* line 12, C:/Users/Homename/Desktop/Atlantis update/css/sass/footer.sass */
+.icon-footer {
+  margin: 0px 10px;
+}
+
+/* line 15, C:/Users/Homename/Desktop/Atlantis update/css/sass/footer.sass */
+.icon-footer:hover {
+  opacity: 0.6;
+}
+
+/* line 18, C:/Users/Homename/Desktop/Atlantis update/css/sass/footer.sass */
+#color-footer {
+  color: rgba(255, 255, 255, 0.2);
+}
+
+/* Article */
+/* colors */
+/* line 4, C:/Users/Homename/Desktop/Atlantis update/css/sass/article.sass */
+.bg-article {
+  height: 40vh;
+  min-height: 300px;
+  max-height: 600px;
+  background: url(../img/room-bg.jpg) no-repeat center center fixed;
+  background-size: 100% 100%;
+  background-attachment: scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+/* line 16, C:/Users/Homename/Desktop/Atlantis update/css/sass/article.sass */
+.img-article {
+  max-width: 900px;
+}
+
+/* line 19, C:/Users/Homename/Desktop/Atlantis update/css/sass/article.sass */
+.article-text h2,
+.article-text h3,
+.article-text h4,
+.article-text h5 {
+  margin-top: 2rem;
+}
+
+/* line 25, C:/Users/Homename/Desktop/Atlantis update/css/sass/article.sass */
+.quote {
+  padding: 0px;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 1.6;
+  color: #005e75;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+/* line 34, C:/Users/Homename/Desktop/Atlantis update/css/sass/article.sass */
+.a-article {
+  color: #003542;
+  font-weight: 500;
+  line-height: 20px;
+  border-bottom: 1px solid #005e75;
+}
+
+/* line 40, C:/Users/Homename/Desktop/Atlantis update/css/sass/article.sass */
+.a-article:hover {
+  color: #005e75;
+  border-bottom: 1px solid #f1f1f1;
+  line-height: 20px;
+  text-decoration: none;
+}
+
+/* Contact us*/
+/* colors */
+/* line 5, C:/Users/Homename/Desktop/Atlantis update/css/sass/contact us.sass */
+.contact-us-map {
+  height: 50vh;
+  min-height: 400px;
+  max-height: 600px;
+}
+
+/* Contact us */
+/* colors */
+/* line 5, C:/Users/Homename/Desktop/Atlantis update/css/sass/contact us 2.sass */
+.contact-us-map-2 {
+  height: 50vh;
+  min-height: 300px;
+  max-height: 600px;
+}
+
+/* line 10, C:/Users/Homename/Desktop/Atlantis update/css/sass/contact us 2.sass */
+textarea.form-control {
+  border-radius: 5px;
+  border: 1px solid #c0c0c0;
+}
+
+/* line 14, C:/Users/Homename/Desktop/Atlantis update/css/sass/contact us 2.sass */
+.contact-block-text .form-control {
+  border: 1px solid #c0c0c0;
+}
+
+/* Gallery 2 */
+/* colors */
+/* line 4, C:/Users/Homename/Desktop/Atlantis update/css/sass/gallery 2.sass */
+.hidden-img {
+  background-color: rgba(0, 94, 117, 0.5);
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  padding: 40px;
+  transition: 0.5s;
+}
+
+/* line 15, C:/Users/Homename/Desktop/Atlantis update/css/sass/gallery 2.sass */
+.hidden-img:hover {
+  opacity: 1;
+}
+
+/* Gallery */
+/* colors */
+/* line 4, C:/Users/Homename/Desktop/Atlantis update/css/sass/gallery.sass */
+.img-bg {
+  background: url(../img/pool2.jpg) no-repeat center center fixed;
+  background-size: 100% 100%;
+  background-attachment: scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 500px;
+  width: auto;
+  transition: 0.2s;
+}
+
+/* line 16, C:/Users/Homename/Desktop/Atlantis update/css/sass/gallery.sass */
+.hidden-img {
+  background-color: rgba(0, 94, 117, 0.5);
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  padding: 40px;
+  transition: 0.5s;
+}
+
+/* line 27, C:/Users/Homename/Desktop/Atlantis update/css/sass/gallery.sass */
+.hidden-img:hover {
+  opacity: 1;
+}
+
+/* line 40, C:/Users/Homename/Desktop/Atlantis update/css/sass/gallery.sass */
+.gallery-img-2 {
+  background: url(../img/agua.jpg) no-repeat center center fixed;
+  background-size: 100% 100%;
+  background-attachment: scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 250px;
+  width: auto;
+}
+
+/* line 44, C:/Users/Homename/Desktop/Atlantis update/css/sass/gallery.sass */
+.gallery-img-3 {
+  background: url(../img/beach-villa.jpg) no-repeat center center fixed;
+  background-size: 100% 100%;
+  background-attachment: scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 250px;
+  width: auto;
+}
+
+/* line 48, C:/Users/Homename/Desktop/Atlantis update/css/sass/gallery.sass */
+.gallery-img-4 {
+  background: url(../img/spa-4.jpg) no-repeat center center fixed;
+  background-size: 100% 100%;
+  background-attachment: scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 250px;
+  width: auto;
+}
+
+/* line 52, C:/Users/Homename/Desktop/Atlantis update/css/sass/gallery.sass */
+.gallery-img-5 {
+  background: url(../img/Evening.jpg) no-repeat center center fixed;
+  background-size: 100% 100%;
+  background-attachment: scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 250px;
+  width: auto;
+}
+
+/* line 56, C:/Users/Homename/Desktop/Atlantis update/css/sass/gallery.sass */
+.gallery-img-6 {
+  background: url(../img/bedroom.jpg) no-repeat center center fixed;
+  background-size: 100% 100%;
+  background-attachment: scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 250px;
+  width: auto;
+}
+
+/* Index */
+/* colors */
+/* 1 screen image and booking*/
+/* line 6, C:/Users/Homename/Desktop/Atlantis update/css/sass/index.sass */
+.bg {
+  height: 90vh;
+  min-height: 580px;
+  max-height: 800px;
+  background: url(../img/beach-villa.jpg) no-repeat center center fixed;
+  background-size: 100% 100%;
+  background-attachment: scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+/* line 18, C:/Users/Homename/Desktop/Atlantis update/css/sass/index.sass */
+.booking {
+  font-size: 14px;
+  font-weight: 400;
+  border-radius: 8px;
+  color: white;
+  background-color: #003542;
+  padding: 15px 25px 25px 25px;
+}
+
+/* line 26, C:/Users/Homename/Desktop/Atlantis update/css/sass/index.sass */
+.icon-booking {
+  margin-left: 2px;
+  padding-right: 5px;
+  padding-bottom: 4px;
+}
+
+/* line 31, C:/Users/Homename/Desktop/Atlantis update/css/sass/index.sass */
+.select {
+  border-radius: 50px;
+  border: 0px;
+  padding: 0px;
+  margin: 0px;
+  color: black;
+  min-width: 100%;
+}
+
+/* line 39, C:/Users/Homename/Desktop/Atlantis update/css/sass/index.sass */
+.select:hover,
+.select:focus,
+.select:active {
+  outline: 0;
+  outline-offset: 0;
+}
+
+/* line 45, C:/Users/Homename/Desktop/Atlantis update/css/sass/index.sass */
+.select:active {
+  outline: 0;
+  outline-offset: 0;
+}
+
+/* line 50, C:/Users/Homename/Desktop/Atlantis update/css/sass/index.sass */
+.room {
+  margin: 0px 0px 60px 0px;
+  padding: 0px 20px 0px 0px;
+}
+
+/* line 54, C:/Users/Homename/Desktop/Atlantis update/css/sass/index.sass */
+.header-room {
+  font-size: 29px;
+  font-weight: 300;
+}
+
+/* line 58, C:/Users/Homename/Desktop/Atlantis update/css/sass/index.sass */
+.price-room {
+  font-weight: 400;
+  font-size: 18px;
+  color: white;
+  letter-spacing: 0.5px;
+  background-color: #004a5c;
+  border-radius: 50px;
+  padding: 5px 15px 5px 15px;
+}
+
+/* line 67, C:/Users/Homename/Desktop/Atlantis update/css/sass/index.sass */
+.text-room-night {
+  font-size: 11px;
+  font-weight: 500;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.4);
+  vertical-align: middle;
+}
+
+/* line 76, C:/Users/Homename/Desktop/Atlantis update/css/sass/index.sass */
+.text-main-2 {
+  padding: 0px 30px 0px 50px;
+}
+
+/* line 99, C:/Users/Homename/Desktop/Atlantis update/css/sass/index.sass */
+.img-big-article-2 {
+  height: 500px;
+  background: url(../img/villa.jpg) no-repeat center center fixed;
+  background-attachment: scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+/* line 104, C:/Users/Homename/Desktop/Atlantis update/css/sass/index.sass */
+.img-big-article {
+  height: 500px;
+  background: url(../img/pool.jpg) no-repeat center center fixed;
+  background-attachment: scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+/* line 110, C:/Users/Homename/Desktop/Atlantis update/css/sass/index.sass */
+.big-bg {
+  background: url(../img/beach-villa.jpg) no-repeat center center fixed;
+  height: 800px;
+  width: 100%;
+  background-attachment: scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+/* line 117, C:/Users/Homename/Desktop/Atlantis update/css/sass/index.sass */
+.img-activity {
+  height: 500px;
+  background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(../img/beach-villa.jpg) no-repeat center center fixed;
+  background-attachment: scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  text-shadow: 0px 1px 20px rgba(0, 0, 0, 0.2);
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  -ms-transition: all 1s ease;
+  transition: all 1s ease;
+}
+
+/* line 122, C:/Users/Homename/Desktop/Atlantis update/css/sass/index.sass */
+.img-activity-2 {
+  height: 500px;
+  background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(../img/article-bg.jpg) no-repeat center center fixed;
+  background-attachment: scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  text-shadow: 0px 1px 20px rgba(0, 0, 0, 0.2);
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  -ms-transition: all 1s ease;
+  transition: all 1s ease;
+}
+
+/* line 127, C:/Users/Homename/Desktop/Atlantis update/css/sass/index.sass */
+.img-activity-3 {
+  height: 500px;
+  background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(../img/pool2.jpg) no-repeat center center fixed;
+  background-attachment: scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  text-shadow: 0px 1px 20px rgba(0, 0, 0, 0.2);
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  -ms-transition: all 1s ease;
+  transition: all 1s ease;
+}
+
+/* line 132, C:/Users/Homename/Desktop/Atlantis update/css/sass/index.sass */
+.img-activity:hover,
+.img-activity-2:hover,
+.img-activity-3:hover {
+  transform: scale(1.05);
+}
+
+/* line 147, C:/Users/Homename/Desktop/Atlantis update/css/sass/index.sass */
+.gallery-home-1 {
+  background: url(../img/ocean_pool.jpg) no-repeat center center fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: inline-block;
+  background-attachment: scroll;
+  height: 200px;
+  width: auto;
+}
+
+/* line 151, C:/Users/Homename/Desktop/Atlantis update/css/sass/index.sass */
+.gallery-home-2 {
+  background: url(../img/spa-1.jpg) no-repeat center center fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: inline-block;
+  background-attachment: scroll;
+  height: 200px;
+  width: auto;
+}
+
+/* line 155, C:/Users/Homename/Desktop/Atlantis update/css/sass/index.sass */
+.gallery-home-3 {
+  background: url(../img/chiva.jpg) no-repeat center center fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: inline-block;
+  background-attachment: scroll;
+  height: 200px;
+  width: auto;
+}
+
+/* line 159, C:/Users/Homename/Desktop/Atlantis update/css/sass/index.sass */
+.gallery-home-4 {
+  background: url(../img/spa-2.jpg) no-repeat center center fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: inline-block;
+  background-attachment: scroll;
+  height: 200px;
+  width: auto;
+}
+
+/* line 163, C:/Users/Homename/Desktop/Atlantis update/css/sass/index.sass */
+.gallery-home-5 {
+  background: url(../img/agua.jpg) no-repeat center center fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: inline-block;
+  background-attachment: scroll;
+  height: 200px;
+  width: auto;
+}
+
+/* line 167, C:/Users/Homename/Desktop/Atlantis update/css/sass/index.sass */
+.gallery-home-6 {
+  background: url(../img/spa-4.jpg) no-repeat center center fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: inline-block;
+  background-attachment: scroll;
+  height: 200px;
+  width: auto;
+}
+
+/* line 171, C:/Users/Homename/Desktop/Atlantis update/css/sass/index.sass */
+.gallery-home-1:hover,
+.gallery-home-2:hover,
+.gallery-home-3:hover,
+.gallery-home-4:hover,
+.gallery-home-5:hover,
+.gallery-home-6:hover {
+  opacity: 0.9;
+}
+
+/* line 179, C:/Users/Homename/Desktop/Atlantis update/css/sass/index.sass */
+.style-none {
+  display: block;
+  text-align: center;
+  height: 100%;
+}
+
+/* line 185, C:/Users/Homename/Desktop/Atlantis update/css/sass/index.sass */
+.btn-text-block {
+  margin-top: -5px;
+  transition: all .09s linear;
+}
+
+/* line 189, C:/Users/Homename/Desktop/Atlantis update/css/sass/index.sass */
+.btn-text-block:hover {
+  transform: translateX(6px);
+}
+
+/* line 193, C:/Users/Homename/Desktop/Atlantis update/css/sass/index.sass */
+.contact-map {
+  width: 100%;
+  height: 350px;
+}
+
+/* Home 2 */
+/* colors */
+/* line 5, C:/Users/Homename/Desktop/Atlantis update/css/sass/index 2.sass */
+.carousel-item {
+  height: 90vh;
+  min-height: 640px;
+  max-height: 800px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+/* line 15, C:/Users/Homename/Desktop/Atlantis update/css/sass/index 2.sass */
+.carousel-form {
+  position: absolute;
+  right: 0;
+  bottom: 6vh;
+  left: 0;
+  z-index: 15;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding-left: 0;
+  list-style: none;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+/* line 32, C:/Users/Homename/Desktop/Atlantis update/css/sass/index 2.sass */
+.carousel-control-prev-icon {
+  background-image: url("../icons/left-arrow.svg");
+}
+
+/* line 35, C:/Users/Homename/Desktop/Atlantis update/css/sass/index 2.sass */
+.carousel-control-next-icon {
+  background-image: url("../icons/right-arrow.svg");
+}
+
+/* line 38, C:/Users/Homename/Desktop/Atlantis update/css/sass/index 2.sass */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  width: 40px;
+  height: 40px;
+}
+
+/* line 43, C:/Users/Homename/Desktop/Atlantis update/css/sass/index 2.sass */
+.carousel-indicators li {
+  width: 40px;
+  height: 2px;
+}
+
+/* line 47, C:/Users/Homename/Desktop/Atlantis update/css/sass/index 2.sass */
+.lead {
+  font-weight: 400;
+}
+
+/* line 50, C:/Users/Homename/Desktop/Atlantis update/css/sass/index 2.sass */
+.text-shadow {
+  text-shadow: 0px 0px 50px rgba(0, 0, 0, 0.2);
+}
+
+/* line 53, C:/Users/Homename/Desktop/Atlantis update/css/sass/index 2.sass */
+.main-text-2 {
+  padding-top: 14vh;
+}
+
+/* line 57, C:/Users/Homename/Desktop/Atlantis update/css/sass/index 2.sass */
+.dropdown-item {
+  color: white;
+  background-color: #00566b;
+}
+
+/* line 61, C:/Users/Homename/Desktop/Atlantis update/css/sass/index 2.sass */
+.dropdown-item:hover {
+  background-color: #004e61;
+  color: white;
+}
+
+/* line 65, C:/Users/Homename/Desktop/Atlantis update/css/sass/index 2.sass */
+.dropdown-active:active {
+  background-color: #004e61;
+}
+
+/* line 68, C:/Users/Homename/Desktop/Atlantis update/css/sass/index 2.sass */
+.dropdown-menu {
+  background-color: #00566b;
+}
+
+/* line 71, C:/Users/Homename/Desktop/Atlantis update/css/sass/index 2.sass */
+.text-room-preview-page-2 {
+  padding: 15px 20px 20px 20px;
+}
+
+/* line 84, C:/Users/Homename/Desktop/Atlantis update/css/sass/index 2.sass */
+.img-room-page-2 {
+  background: url(../img/palm.jpg) no-repeat center center fixed;
+  background-size: 100% 100%;
+  background-attachment: scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 200px;
+}
+
+/* line 88, C:/Users/Homename/Desktop/Atlantis update/css/sass/index 2.sass */
+.img-room-page-3 {
+  background: url(../img/room-3.jpg) no-repeat center center fixed;
+  background-size: 100% 100%;
+  background-attachment: scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 200px;
+}
+
+/* line 92, C:/Users/Homename/Desktop/Atlantis update/css/sass/index 2.sass */
+.img-room-page-6 {
+  background: url(../img/room-4.jpg) no-repeat center center fixed;
+  background-size: 100% 100%;
+  background-attachment: scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 200px;
+}
+
+/* line 96, C:/Users/Homename/Desktop/Atlantis update/css/sass/index 2.sass */
+.text-info-2 {
+  font-size: 13px;
+  font-weight: 500;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.4);
+  vertical-align: middle;
+}
+
+/* line 115, C:/Users/Homename/Desktop/Atlantis update/css/sass/index 2.sass */
+.main-bg-2 {
+  background: url(../img/chiva.jpg) no-repeat center center fixed;
+  height: 400px;
+  background-size: 100% 100%;
+  background-attachment: scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  transition: 0.5s;
+}
+
+/* line 119, C:/Users/Homename/Desktop/Atlantis update/css/sass/index 2.sass */
+.main-bg-3 {
+  background: url(../img/evening.jpg) no-repeat center center fixed;
+  height: 400px;
+  background-size: 100% 100%;
+  background-attachment: scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  transition: 0.5s;
+}
+
+/* line 123, C:/Users/Homename/Desktop/Atlantis update/css/sass/index 2.sass */
+.main-bg-4 {
+  background: url(../img/spa-4.jpg) no-repeat center center fixed;
+  height: 400px;
+  background-size: 100% 100%;
+  background-attachment: scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  transition: 0.5s;
+}
+
+/* line 127, C:/Users/Homename/Desktop/Atlantis update/css/sass/index 2.sass */
+.main-bg-2:hover,
+.main-bg-3:hover,
+.main-bg-4:hover {
+  z-index: 100;
+  transform: scale(1.02, 1.02);
+  opacity: 0.9;
+}
+
+/* line 134, C:/Users/Homename/Desktop/Atlantis update/css/sass/index 2.sass */
+.a-link-article {
+  color: black;
+  transition: 0.2s;
+}
+
+/* line 138, C:/Users/Homename/Desktop/Atlantis update/css/sass/index 2.sass */
+.a-link-article:hover {
+  text-decoration: none;
+  color: black;
+  opacity: 0.9;
+}
+
+/* line 143, C:/Users/Homename/Desktop/Atlantis update/css/sass/index 2.sass */
+.link {
+  border-radius: 0px;
+  padding-bottom: 2px;
+  transition: 0.3s;
+}
+
+/* line 148, C:/Users/Homename/Desktop/Atlantis update/css/sass/index 2.sass */
+.link:hover {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+  text-decoration: none;
+  opacity: 0.9;
+}
+
+/* line 154, C:/Users/Homename/Desktop/Atlantis update/css/sass/index 2.sass */
+.play {
+  transition: 0.3s;
+}
+
+/* line 157, C:/Users/Homename/Desktop/Atlantis update/css/sass/index 2.sass */
+.play:hover {
+  opacity: 0.8;
+  transform: scale(0.9, 0.9);
+}
+
+/* line 161, C:/Users/Homename/Desktop/Atlantis update/css/sass/index 2.sass */
+.big-bg-4 {
+  height: 600px;
+  background: url(../img/seared.jpg) no-repeat center center fixed;
+  background-size: 100% 100%;
+  background-attachment: scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  transition: 0.3s;
+}
+
+/* line 172, C:/Users/Homename/Desktop/Atlantis update/css/sass/index 2.sass */
+.big-bg-4:hover {
+  z-index: 100;
+  transform: scale(1.01, 1.01);
+}
+
+/* line 176, C:/Users/Homename/Desktop/Atlantis update/css/sass/index 2.sass */
+.text-main-3 {
+  padding: 50px 40px 50px 40px;
+}
+
+/* Page 1 */
+/* colors */
+/* line 4, C:/Users/Homename/Desktop/Atlantis update/css/sass/page 1.sass */
+.bg-room-5 {
+  height: 40vh;
+  min-height: 300px;
+  max-height: 600px;
+  background: url(../img/agua.jpg) no-repeat center center fixed;
+  background-size: 100% 100%;
+  background-attachment: scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+/* line 16, C:/Users/Homename/Desktop/Atlantis update/css/sass/page 1.sass */
+.bg-room-6 {
+  height: 800px;
+  background: url(../img/spa-1.jpg) no-repeat center center fixed;
+  background-size: 100% 100%;
+  background-attachment: scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+/* line 26, C:/Users/Homename/Desktop/Atlantis update/css/sass/page 1.sass */
+.bg-room-7 {
+  height: 800px;
+  background: url(../img/seared.jpg) no-repeat center center fixed;
+  background-size: 100% 100%;
+  background-attachment: scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+/* line 36, C:/Users/Homename/Desktop/Atlantis update/css/sass/page 1.sass */
+.big-bg-3 {
+  height: 800px;
+  background: url(../img/chiva-bg.jpg) no-repeat center center fixed;
+  background-size: 100% 100%;
+  background-attachment: scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+/* line 55, C:/Users/Homename/Desktop/Atlantis update/css/sass/page 1.sass */
+.img-spa {
+  height: 500px;
+  background: url(../img/chiva.jpg) no-repeat center center fixed;
+  background-size: 100% 100%;
+  background-attachment: scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+/* line 60, C:/Users/Homename/Desktop/Atlantis update/css/sass/page 1.sass */
+.img-spa-2 {
+  height: 400px;
+  background: url(../img/spa-2.jpg) no-repeat center center fixed;
+  background-size: 100% 100%;
+  background-attachment: scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+/* line 65, C:/Users/Homename/Desktop/Atlantis update/css/sass/page 1.sass */
+.img-spa-3 {
+  height: 700px;
+  background: url(../img/spa-3.jpg) no-repeat center center fixed;
+  background-size: 100% 100%;
+  background-attachment: scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+/* line 70, C:/Users/Homename/Desktop/Atlantis update/css/sass/page 1.sass */
+.img-spa-4 {
+  height: 400px;
+  background: url(../img/chiva.jpg) no-repeat center center fixed;
+  background-size: 100% 100%;
+  background-attachment: scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+/* line 75, C:/Users/Homename/Desktop/Atlantis update/css/sass/page 1.sass */
+.img-spa-5 {
+  height: 400px;
+  background: url(../img/evening.jpg) no-repeat center center fixed;
+  background-size: 100% 100%;
+  background-attachment: scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+/* line 80, C:/Users/Homename/Desktop/Atlantis update/css/sass/page 1.sass */
+.img-spa-6 {
+  height: 400px;
+  background: url(../img/seared.jpg) no-repeat center center fixed;
+  background-size: 100% 100%;
+  background-attachment: scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+/* line 85, C:/Users/Homename/Desktop/Atlantis update/css/sass/page 1.sass */
+.img-spa-7 {
+  height: 400px;
+  background: url(../img/agua.jpg) no-repeat center center fixed;
+  background-size: 100% 100%;
+  background-attachment: scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+/* line 90, C:/Users/Homename/Desktop/Atlantis update/css/sass/page 1.sass */
+.circle {
+  border-radius: 50%;
+  height: 250px;
+  width: 250px;
+}
+
+/* line 95, C:/Users/Homename/Desktop/Atlantis update/css/sass/page 1.sass */
+.hover-1 {
+  transition: 0.5s;
+}
+
+/* line 98, C:/Users/Homename/Desktop/Atlantis update/css/sass/page 1.sass */
+.hover-1:hover {
+  z-index: 1000;
+  transform: scale(1.02, 1.02);
+}
+
+/* Restaurant */
+/* colors */
+/* Restaurant */
+/* line 5, C:/Users/Homename/Desktop/Atlantis update/css/sass/restaurant.sass */
+.bg-room-3 {
+  height: 40vh;
+  min-height: 300px;
+  max-height: 600px;
+  background: url(../img/chiva.jpg) no-repeat center center fixed;
+  background-size: 100% 100%;
+  background-attachment: scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+/* line 17, C:/Users/Homename/Desktop/Atlantis update/css/sass/restaurant.sass */
+.carousel-item-page {
+  height: 70vh;
+}
+
+/* Spa*/
+/* colors */
+/* line 4, C:/Users/Homename/Desktop/Atlantis update/css/sass/spa.sass */
+.bg-room-4 {
+  height: 40vh;
+  min-height: 300px;
+  max-height: 600px;
+  background: url(../img/spa.jpg) no-repeat center center fixed;
+  background-size: 100% 100%;
+  background-attachment: scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+/* line 25, C:/Users/Homename/Desktop/Atlantis update/css/sass/spa.sass */
+.img-spa {
+  background: url(../img/chiva.jpg) no-repeat center center fixed;
+  height: 500px;
+  background-size: 100% 100%;
+  background-attachment: scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+/* line 44, C:/Users/Homename/Desktop/Atlantis update/css/sass/spa.sass */
+.img-spa-2 {
+  background: url(../img/spa-2.jpg) no-repeat center center fixed;
+  height: 400px;
+  background-size: 100% 100%;
+  background-attachment: scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+/* line 48, C:/Users/Homename/Desktop/Atlantis update/css/sass/spa.sass */
+.img-spa-3 {
+  height: 700px;
+  background: url(../img/spa-3.jpg) no-repeat center center fixed;
+  background-size: 100% 100%;
+  background-attachment: scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+/* line 58, C:/Users/Homename/Desktop/Atlantis update/css/sass/spa.sass */
+.img-spa-4 {
+  background: url(../img/chiva.jpg) no-repeat center center fixed;
+  height: 400px;
+  background-size: 100% 100%;
+  background-attachment: scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+/* line 62, C:/Users/Homename/Desktop/Atlantis update/css/sass/spa.sass */
+.img-spa-5 {
+  background: url(../img/evening.jpg) no-repeat center center fixed;
+  height: 400px;
+  background-size: 100% 100%;
+  background-attachment: scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+/* line 66, C:/Users/Homename/Desktop/Atlantis update/css/sass/spa.sass */
+.img-spa-6 {
+  background: url(../img/seared.jpg) no-repeat center center fixed;
+  height: 400px;
+  background-size: 100% 100%;
+  background-attachment: scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+/* line 70, C:/Users/Homename/Desktop/Atlantis update/css/sass/spa.sass */
+.img-spa-7 {
+  background: url(../img/agua.jpg) no-repeat center center fixed;
+  height: 400px;
+  background-size: 100% 100%;
+  background-attachment: scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+/* line 74, C:/Users/Homename/Desktop/Atlantis update/css/sass/spa.sass */
+.circle {
+  border-radius: 50%;
+  height: 250px;
+  width: 250px;
+}
+
+/* line 79, C:/Users/Homename/Desktop/Atlantis update/css/sass/spa.sass */
+.carousel-item-page {
+  min-height: 300px;
+  height: 70vh;
+}
+
+/* line 83, C:/Users/Homename/Desktop/Atlantis update/css/sass/spa.sass */
+.fluid-box {
+  height: 100%;
+}
+
+/* line 86, C:/Users/Homename/Desktop/Atlantis update/css/sass/spa.sass */
+.hover-1 {
+  transition: 0.5s;
+}
+
+/* line 89, C:/Users/Homename/Desktop/Atlantis update/css/sass/spa.sass */
+.hover-1:hover {
+  z-index: 1000;
+  transform: scale(1.05, 1.05);
+}
+
+/* Rooms */
+/* colors */
+/* line 4, C:/Users/Homename/Desktop/Atlantis update/css/sass/rooms.sass */
+.room-price-more {
+  margin-top: 20px;
+}
+
+/* line 7, C:/Users/Homename/Desktop/Atlantis update/css/sass/rooms.sass */
+.room-preview {
+  background-color: #ffffff;
+  margin: 0px 0px 50px 0px;
+}
+
+/* line 11, C:/Users/Homename/Desktop/Atlantis update/css/sass/rooms.sass */
+.text-room-preview {
+  padding: 30px 30px 30px 40px;
+}
+
+/* line 14, C:/Users/Homename/Desktop/Atlantis update/css/sass/rooms.sass */
+.header-room-preview {
+  font-weight: 300;
+  font-size: 28px;
+  letter-spacing: 1px;
+  margin: 0px 0px 0px -2px;
+}
+
+/* line 20, C:/Users/Homename/Desktop/Atlantis update/css/sass/rooms.sass */
+.room-table {
+  font-size: 24px;
+  font-weight: 400;
+}
+
+/* line 24, C:/Users/Homename/Desktop/Atlantis update/css/sass/rooms.sass */
+.font-small {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+/* line 28, C:/Users/Homename/Desktop/Atlantis update/css/sass/rooms.sass */
+.offer-room {
+  display: inline;
+  font-weight: 300;
+  font-size: 15px;
+  letter-spacing: 1px;
+  background-color: orange;
+  color: white;
+  margin-top: 10px;
+  padding: 8px 16px 8px 16px;
+}
+
+/* line 38, C:/Users/Homename/Desktop/Atlantis update/css/sass/rooms.sass */
+.room-price-more {
+  margin-top: 20px;
+}
+
+/* line 41, C:/Users/Homename/Desktop/Atlantis update/css/sass/rooms.sass */
+.text-room-preview {
+  padding: 30px 30px 30px 40px;
+}
+
+/* line 44, C:/Users/Homename/Desktop/Atlantis update/css/sass/rooms.sass */
+.p-room {
+  font-size: 14px;
+}
+
+/* line 47, C:/Users/Homename/Desktop/Atlantis update/css/sass/rooms.sass */
+.info-room {
+  margin-bottom: 0px;
+  font-size: 12px;
+  opacity: 0.5;
+}
+
+/* line 52, C:/Users/Homename/Desktop/Atlantis update/css/sass/rooms.sass */
+.offer-room {
+  display: inline;
+  font-weight: 300;
+  font-size: 15px;
+  letter-spacing: 1px;
+  background-color: orange;
+  color: white;
+  margin-top: 10px;
+  padding: 8px 16px 8px 16px;
+}
+
+/* line 70, C:/Users/Homename/Desktop/Atlantis update/css/sass/rooms.sass */
+.img-room {
+  background: url(../img/palm.jpg) no-repeat center center fixed;
+  background-size: 100% 100%;
+  background-attachment: scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+/* line 74, C:/Users/Homename/Desktop/Atlantis update/css/sass/rooms.sass */
+.img-room-2 {
+  background: url(../img/room-2.jpg) no-repeat center center fixed;
+  background-size: 100% 100%;
+  background-attachment: scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+/* line 78, C:/Users/Homename/Desktop/Atlantis update/css/sass/rooms.sass */
+.img-room-3 {
+  background: url(../img/room-3.jpg) no-repeat center center fixed;
+  background-size: 100% 100%;
+  background-attachment: scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+/* line 82, C:/Users/Homename/Desktop/Atlantis update/css/sass/rooms.sass */
+.img-room-4 {
+  background: url(../img/pool.jpg) no-repeat center center fixed;
+  background-size: 100% 100%;
+  background-attachment: scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+/* line 86, C:/Users/Homename/Desktop/Atlantis update/css/sass/rooms.sass */
+.img-room-5 {
+  background: url(../img/eat.jpg) no-repeat center center fixed;
+  background-size: 100% 100%;
+  background-attachment: scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+/* Rooms 2 */
+/* colors */
+/* line 13, C:/Users/Homename/Desktop/Atlantis update/css/sass/rooms 2.sass */
+.img-room-page-2 {
+  background: url(../img/palm.jpg) no-repeat center center fixed;
+  background-size: 100% 100%;
+  background-attachment: scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 200px;
+}
+
+/* line 17, C:/Users/Homename/Desktop/Atlantis update/css/sass/rooms 2.sass */
+.img-room-page-3 {
+  background: url(../img/room-3.jpg) no-repeat center center fixed;
+  background-size: 100% 100%;
+  background-attachment: scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 200px;
+}
+
+/* line 21, C:/Users/Homename/Desktop/Atlantis update/css/sass/rooms 2.sass */
+.img-room-page-4 {
+  background: url(../img/room-4.jpg) no-repeat center center fixed;
+  background-size: 100% 100%;
+  background-attachment: scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 200px;
+}
+
+/* line 25, C:/Users/Homename/Desktop/Atlantis update/css/sass/rooms 2.sass */
+.img-room-page-5 {
+  background: url(../img/bedroom.jpg) no-repeat center center fixed;
+  background-size: 100% 100%;
+  background-attachment: scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 200px;
+}
+
+/* line 29, C:/Users/Homename/Desktop/Atlantis update/css/sass/rooms 2.sass */
+.img-room-page-6 {
+  background: url(../img/room-y.jpg) no-repeat center center fixed;
+  background-size: 100% 100%;
+  background-attachment: scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 200px;
+}
+
+/* line 33, C:/Users/Homename/Desktop/Atlantis update/css/sass/rooms 2.sass */
+.text-room-preview-page-2 {
+  padding: 15px 20px 20px 20px;
+}
+
+/* line 36, C:/Users/Homename/Desktop/Atlantis update/css/sass/rooms 2.sass */
+.info-room-page-2 {
+  margin-bottom: -5px;
+  letter-spacing: 1px;
+  font-size: 11px;
+  text-transform: uppercase;
+}
+
+/* line 42, C:/Users/Homename/Desktop/Atlantis update/css/sass/rooms 2.sass */
+.room-price-more-page-2 {
+  margin-top: 10px;
+}
+
+/* line 45, C:/Users/Homename/Desktop/Atlantis update/css/sass/rooms 2.sass */
+.offer-room-2 {
+  display: inline;
+  font-weight: 500;
+  font-size: 13px;
+  letter-spacing: 1px;
+  background-color: #004a5c;
+  color: rgba(255, 255, 255, 0.7);
+  border-radius: 3px;
+  padding: 8px 16px 8px 16px;
+}
+
+/* Room */
+/* colors */
+/* Style room */
+/* line 5, C:/Users/Homename/Desktop/Atlantis update/css/sass/room.sass */
+.bg-room {
+  height: 40vh;
+  min-height: 300px;
+  max-height: 600px;
+  background: url(../img/room-bg.jpg) no-repeat center center fixed;
+  background-size: 100% 100%;
+  background-attachment: scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+/* line 17, C:/Users/Homename/Desktop/Atlantis update/css/sass/room.sass */
+.container-room h3 {
+  margin-bottom: 14px;
+}
+
+/* line 20, C:/Users/Homename/Desktop/Atlantis update/css/sass/room.sass */
+.bg-green-icon {
+  background-color: #005e75;
+  padding: 20px 20px 20px 20px;
+}
+
+/* line 24, C:/Users/Homename/Desktop/Atlantis update/css/sass/room.sass */
+.bg-green-icon-2 {
+  background-color: #005a70;
+  padding: 20px 20px 20px 20px;
+}
+
+/* line 28, C:/Users/Homename/Desktop/Atlantis update/css/sass/room.sass */
+.room-booking-dote {
+  opacity: 0.1;
+  padding-bottom: 30px;
+}
+
+/* line 32, C:/Users/Homename/Desktop/Atlantis update/css/sass/room.sass */
+.booking-room-form {
+  min-width: 300px;
+  margin-top: -100px;
+}
+
+/* line 36, C:/Users/Homename/Desktop/Atlantis update/css/sass/room.sass */
+.img-overlay {
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.4);
+}
+
+/* line 41, C:/Users/Homename/Desktop/Atlantis update/css/sass/room.sass */
+.room {
+  margin: 0px 0px 60px 0px;
+  padding: 0px 20px 0px 0px;
+}
+
+/* line 45, C:/Users/Homename/Desktop/Atlantis update/css/sass/room.sass */
+.booking-room {
+  background-color: #003d4c;
+  border-radius: 10px;
+  width: 100%;
+  padding: 30px 30px 40px 30px;
+  color: #fff;
+}
+
+/* line 52, C:/Users/Homename/Desktop/Atlantis update/css/sass/room.sass */
+.list li {
+  list-style-type: none;
+}
+
+/* line 55, C:/Users/Homename/Desktop/Atlantis update/css/sass/room.sass */
+.text-li {
+  color: #005e75;
+  font-weight: 600;
+  font-size: 12px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+/* line 62, C:/Users/Homename/Desktop/Atlantis update/css/sass/room.sass */
+.green-block-room {
+  margin: 0px 20px 0px 0px;
+}
+
+/* line 65, C:/Users/Homename/Desktop/Atlantis update/css/sass/room.sass */
+.room-table {
+  font-size: 24px;
+  font-weight: 400;
+}
+
+/* line 69, C:/Users/Homename/Desktop/Atlantis update/css/sass/room.sass */
+.font-small {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+/* line 73, C:/Users/Homename/Desktop/Atlantis update/css/sass/room.sass */
+.booking-room-form {
+  min-width: 300px;
+}
+
+/* line 76, C:/Users/Homename/Desktop/Atlantis update/css/sass/room.sass */
+.border-2 {
+  border-radius: 6px;
+}
+
+/* line 79, C:/Users/Homename/Desktop/Atlantis update/css/sass/room.sass */
+.border-img {
+  border: 1px solid white;
+}
+
+/* line 82, C:/Users/Homename/Desktop/Atlantis update/css/sass/room.sass */
+.room-gallery-img {
+  background: url(../img/chiva.jpg) no-repeat center center fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: inline-block;
+  background-attachment: scroll;
+  height: 400px;
+  width: auto;
+}
+
+/* line 101, C:/Users/Homename/Desktop/Atlantis update/css/sass/room.sass */
+.room-gallery-img-2 {
+  background: url(../img/evening.jpg) no-repeat center center fixed;
+  height: 100px;
+  width: auto;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: inline-block;
+  background-attachment: scroll;
+}
+
+/* line 105, C:/Users/Homename/Desktop/Atlantis update/css/sass/room.sass */
+.room-gallery-img-3 {
+  background: url(../img/agua.jpg) no-repeat center center fixed;
+  height: 100px;
+  width: auto;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: inline-block;
+  background-attachment: scroll;
+}
+
+/* line 109, C:/Users/Homename/Desktop/Atlantis update/css/sass/room.sass */
+.room-gallery-img-4 {
+  background: url(../img/spa-1.jpg) no-repeat center center fixed;
+  height: 100px;
+  width: auto;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: inline-block;
+  background-attachment: scroll;
+}
+
+/* line 113, C:/Users/Homename/Desktop/Atlantis update/css/sass/room.sass */
+.room-gallery-img-5 {
+  background: url(../img/spa-2.jpg) no-repeat center center fixed;
+  height: 100px;
+  width: auto;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: inline-block;
+  background-attachment: scroll;
+}
+
+/* line 117, C:/Users/Homename/Desktop/Atlantis update/css/sass/room.sass */
+.room-gallery-img-6 {
+  background: url(../img/seared.jpg) no-repeat center center fixed;
+  height: 100px;
+  width: auto;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: inline-block;
+  background-attachment: scroll;
+}
+
+/* line 121, C:/Users/Homename/Desktop/Atlantis update/css/sass/room.sass */
+.room-gallery-img-2:hover,
+.room-gallery-img-3:hover,
+.room-gallery-img-4:hover,
+.room-gallery-img-5:hover,
+.room-gallery-img-6:hover,
+.room-gallery-img:hover {
+  opacity: 0.9;
+}
+
+/* Room 2*/
+/* colors */
+/* Style room */
+/* line 5, C:/Users/Homename/Desktop/Atlantis update/css/sass/room 2.sass */
+.bg-room-2 {
+  height: 40vh;
+  min-height: 300px;
+  max-height: 600px;
+  background: url(../img/ocean-front.jpg) no-repeat center center fixed;
+  background-size: 100% 100%;
+  background-attachment: scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+/* line 17, C:/Users/Homename/Desktop/Atlantis update/css/sass/room 2.sass */
+.text-ul {
+  color: #005e75;
+  font-weight: 600;
+  font-size: 12px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+/* line 24, C:/Users/Homename/Desktop/Atlantis update/css/sass/room 2.sass */
+.border {
+  border: 1px solid #f2f2f2;
+}
+
+/* line 27, C:/Users/Homename/Desktop/Atlantis update/css/sass/room 2.sass */
+.booking-room {
+  background-color: #004151;
+  border-radius: 10px;
+  height: 100%;
+  width: 100%;
+  padding: 20px 20px 30px 20px;
+  color: #fff;
+}
+
+/* line 34, C:/Users/Homename/Desktop/Atlantis update/css/sass/style.sass */
+.bg-main-color {
+  background-color: #005e75;
+}
+
+/* line 36, C:/Users/Homename/Desktop/Atlantis update/css/sass/style.sass */
+.bg-main-color-2 {
+  background-color: #00566b;
+}
+
+/* line 38, C:/Users/Homename/Desktop/Atlantis update/css/sass/style.sass */
+.bg-color-grey {
+  background-color: #f2f2f2;
+}
+
+/* line 40, C:/Users/Homename/Desktop/Atlantis update/css/sass/style.sass */
+.bg-color-white {
+  background-color: #fff;
+}
+
+/* line 45, C:/Users/Homename/Desktop/Atlantis update/css/sass/style.sass */
+html {
+  font-family: Montserrat, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* line 49, C:/Users/Homename/Desktop/Atlantis update/css/sass/style.sass */
+body {
+  font-family: Montserrat, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* line 53, C:/Users/Homename/Desktop/Atlantis update/css/sass/style.sass */
+h1 {
+  font-weight: 300;
+  font-size: 3rem;
+}
+
+/* line 57, C:/Users/Homename/Desktop/Atlantis update/css/sass/style.sass */
+h2 {
+  font-weight: 300;
+  font-size: 2.5rem;
+}
+
+/* line 61, C:/Users/Homename/Desktop/Atlantis update/css/sass/style.sass */
+h3 {
+  font-weight: 300;
+  font-size: 2rem;
+}
+
+/* line 65, C:/Users/Homename/Desktop/Atlantis update/css/sass/style.sass */
+h4 {
+  font-weight: 400;
+  font-size: 1.5rem;
+  line-height: 1.3;
+}
+
+/* line 70, C:/Users/Homename/Desktop/Atlantis update/css/sass/style.sass */
+h5 {
+  font-weight: 400;
+  font-size: 1.2rem;
+}
+
+/* line 74, C:/Users/Homename/Desktop/Atlantis update/css/sass/style.sass */
+h1, h2, h3, h4, h5, h6 {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+}
+
+/* line 79, C:/Users/Homename/Desktop/Atlantis update/css/sass/style.sass */
+p {
+  margin-top: 0;
+  margin-bottom: 1rem;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+/* line 85, C:/Users/Homename/Desktop/Atlantis update/css/sass/style.sass */
+a {
+  color: #005e75;
+  text-decoration: none;
+}
+
+/* line 89, C:/Users/Homename/Desktop/Atlantis update/css/sass/style.sass */
+a:hover {
+  color: #005e75;
+  text-decoration: none;
+}
+
+/* line 93, C:/Users/Homename/Desktop/Atlantis update/css/sass/style.sass */
+ul, ol {
+  padding-left: 20px;
+}
+
+/* line 96, C:/Users/Homename/Desktop/Atlantis update/css/sass/style.sass */
+li {
+  font-weight: 500;
+}
+
+/* line 99, C:/Users/Homename/Desktop/Atlantis update/css/sass/style.sass */
+.list li {
+  list-style-type: none;
+}
+
+/* line 102, C:/Users/Homename/Desktop/Atlantis update/css/sass/style.sass */
+ul.list {
+  padding-left: 0px;
+}
+
+/* line 105, C:/Users/Homename/Desktop/Atlantis update/css/sass/style.sass */
+.big-header {
+  font-weight: 300;
+  font-size: 5rem;
+  letter-spacing: -2px;
+}
+
+/* line 112, C:/Users/Homename/Desktop/Atlantis update/css/sass/style.sass */
+.topheader {
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: black;
+  margin-bottom: 5px;
+  line-height: 1.9;
+}
+
+/* line 121, C:/Users/Homename/Desktop/Atlantis update/css/sass/style.sass */
+.topheader-s {
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: rgba(0, 0, 0, 0.4);
+  margin-bottom: 5px;
+}
+
+/* line 129, C:/Users/Homename/Desktop/Atlantis update/css/sass/style.sass */
+.topheader-b {
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: #004e61;
+  margin-bottom: 5px;
+}
+
+/* line 137, C:/Users/Homename/Desktop/Atlantis update/css/sass/style.sass */
+.topheader-2 {
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.4);
+  margin: 15px 10px 5px 10px;
+}
+
+/* line 145, C:/Users/Homename/Desktop/Atlantis update/css/sass/style.sass */
+.topheader-2:hover {
+  color: white;
+  text-decoration: none;
+}
+
+/* line 149, C:/Users/Homename/Desktop/Atlantis update/css/sass/style.sass */
+.topheader-3 {
+  font-size: 17px;
+  font-weight: 500;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.3);
+}
+
+/* line 156, C:/Users/Homename/Desktop/Atlantis update/css/sass/style.sass */
+.text-20 {
+  font-size: 20px;
+  font-weight: 400;
+}
+
+/* line 160, C:/Users/Homename/Desktop/Atlantis update/css/sass/style.sass */
+.subheader {
+  font-size: 20px;
+  font-weight: 400;
+}
+
+/* line 164, C:/Users/Homename/Desktop/Atlantis update/css/sass/style.sass */
+.text-article {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+/* line 168, C:/Users/Homename/Desktop/Atlantis update/css/sass/style.sass */
+.text {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.8;
+}
+
+/* line 174, C:/Users/Homename/Desktop/Atlantis update/css/sass/style.sass */
+.img-overlay {
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.4);
+}
+
+/* line 180, C:/Users/Homename/Desktop/Atlantis update/css/sass/style.sass */
+input {
+  border-radius: 50px;
+  border: 0px;
+  padding: 8px;
+  padding-left: 15px;
+  color: black;
+  width: 100%;
+  min-width: 140px;
+}
+
+/* line 189, C:/Users/Homename/Desktop/Atlantis update/css/sass/style.sass */
+input:hover {
+  opacity: 0.9;
+}
+
+/* line 192, C:/Users/Homename/Desktop/Atlantis update/css/sass/style.sass */
+.form-control {
+  border-radius: 50px;
+  border: 0px;
+  padding: 7px;
+  padding-left: 15px;
+  color: black;
+  min-width: 130px;
+}
+
+/* line 200, C:/Users/Homename/Desktop/Atlantis update/css/sass/style.sass */
+select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  border-radius: 50px;
+  background: url(../icons/arrow-d.svg) no-repeat 90% 50%;
+  background-size: 10px;
+}
+
+/*# sourceMappingURL=../style.map */
